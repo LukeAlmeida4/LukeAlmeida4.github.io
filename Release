@@ -1,0 +1,9 @@
+Origin: Luke Almeida.s Repo
+Label: Luke Almeida's Repo
+Suite: stable
+Version: 1.0
+Codename: Lukealmeida
+Architectures: iphoneos-arm
+Components: main
+Description: Luke Portfolio Site\
+MD5Sum:
