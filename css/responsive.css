@@ -191,8 +191,8 @@
     .footerLinks {
         padding-top: 50px;
     }
-    .footerLinks .icons {
-        width: 100%;
+    .footerLinks img {
+        width: 25px;
     }
 }
 
