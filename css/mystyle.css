@@ -171,7 +171,7 @@ abbr, acronym {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 180px 0 0 0;
+    padding: 150px 0 0 0;
     height:100vh;
     top:0px;
     left:0px;
@@ -221,6 +221,15 @@ abbr, acronym {
     font-family: 'Roboto Condensed';
     text-align: center;
     padding-bottom: 150px;
+}
+#home #resumeLink {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#home #resumeLink img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
 
 #home #webstormLink  {

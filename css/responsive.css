@@ -87,6 +87,7 @@
 
 
     /*Skills Page*/
+
     #skills  h1 {
         font-size: 4em;
     }
@@ -121,6 +122,8 @@
 @media only screen and (min-device-width : 100px) and (max-device-width : 767px) {
     #home {
         background: black;
+        padding-top: 80px;
+        height: 80vh;
     }
 
     /*Home Page*/
@@ -139,6 +142,10 @@
     }
 
     /*Skills Page*/
+    #skills {
+        padding-top: 10px;
+        height: 130vh;
+    }
     #skills  h1 {
         font-size: 2em;
     }
