@@ -123,7 +123,6 @@
     #home {
         background: black;
         padding-top: 80px;
-        height: 100vh;
     }
 
     /*Home Page*/
@@ -141,7 +140,12 @@
         font-size: 8px;
         line-height: 20px;
     }
-
+    #home #resumeLink {
+        font-size: 10px;
+    }
+    #home #resumeLink img {
+        width: 25px;
+    }
     /*Skills Page*/
     #skills {
         padding-top: 10px;
@@ -184,10 +188,11 @@
     #contact h2 {
         font-size: .8em;
     }
-
+    .footerLinks {
+        padding-top: 50px;
+    }
     .footerLinks .icons {
         width: 100%;
-        padding-top: 50px;
     }
 }
 
