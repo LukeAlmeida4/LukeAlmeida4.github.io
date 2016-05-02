@@ -63,12 +63,12 @@ abbr, acronym {
 #menu li {
     display: inline-block;
     float: right;
-    margin: 10px;
-    padding: 6px;
+    margin: 6px;
+    padding: 4px;
     color: #fff;
     background: #fdcb1c;
     font-family: "Montserrat";
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #menu li.active {
@@ -171,7 +171,7 @@ abbr, acronym {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding: 200px 0 0 0;
+    padding: 180px 0 0 0;
     height:100vh;
     top:0px;
     left:0px;
@@ -185,7 +185,7 @@ abbr, acronym {
     -o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
     color: white;
-    font-size: 8em;
+    font-size: 6em;
     font-family: 'Roboto Condensed';
     text-align: center;
 }
@@ -217,7 +217,7 @@ abbr, acronym {
     -o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Roboto Condensed';
     text-align: center;
     padding-bottom: 150px;
@@ -235,7 +235,7 @@ abbr, acronym {
 
 #skills {
     background-color: #8C001A;
-    padding: 100px 0 0 0;
+    padding: 50px 0 0 0;
     height:100vh;
     top:0px;
     left:0px;
@@ -244,13 +244,13 @@ abbr, acronym {
 
 #skills  h1 {
     color: white;
-    font-size: 8em;
+    font-size: 6em;
     text-align: center;
     font-family: 'Roboto Condensed';
 }
 
 #skills h2 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     line-height: .8;
     text-transform: uppercase;
@@ -262,39 +262,30 @@ abbr, acronym {
     color: #fdcb1c;
 }
 
-#skills h3 {
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase;
-    display: inline-block;
-    color: #8c001a;
-    font-size: 16px;
-}
 
 #wrapper {
-    -webkit-flex: 1; /* Safari 6.1+ */
-    -ms-flex: 1; /* IE 10 */
+
     font-family: 'Montserrat';
     line-height: 30px;
     text-align: center;
-    margin-top: 100px;
+    padding-top: 20px;
 }
 
 #blurb1 {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     padding: 30px 60px 70px 60px;
 }
 
 #blurb2 {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     padding: 40px 60px 90px 60px;
 }
 
 #blurb3 {
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     padding: 30px 60px 42px 60px;
 }
 
@@ -350,12 +341,12 @@ abbr, acronym {
 
 #skills h4 {
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: 'Roboto Condensed';
     text-align: center;
 }
 
-#skills .yellowAccent  {
+.yellowAccent  {
     color: #fdcb1c;
 }
 
@@ -363,7 +354,7 @@ abbr, acronym {
 /*style for the third full page*/
 #contact {
     background-color: whitesmoke;
-    padding: 250px 0 0 0;
+    padding: 50px 0 0 0;
     height:100vh;
     top:0px;
     left:0px;
@@ -372,7 +363,14 @@ abbr, acronym {
 
 #contact h1 {
     color: black;
-    font-size: 8em;
+    font-size: 6em;
+    font-family: 'Roboto Condensed';
+    text-align: center;
+}
+
+#contact h2 {
+    color: black;
+    font-size: 1.5em;
     font-family: 'Roboto Condensed';
     text-align: center;
 }
