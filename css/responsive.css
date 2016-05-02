@@ -1,0 +1,193 @@
+/*Desktop & Laptops*/
+@media only screen and (min-width : 900px) and (max-width: 1271px){
+
+    /*home page*/
+    #home  h1 {
+        font-size: 6em;
+    }
+
+    #home  a#aboutLink {
+        width: 160px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+
+    /*nav bar*/
+    #menu {
+        right: 50px;
+    }
+
+    #menu li {
+        margin: 6px;
+        padding: 4px;
+        font-size: 12px;
+    }
+
+    /*Skills Page*/
+    #skills  h1 {
+        font-size: 6em;
+    }
+    #skills  h2 {
+        font-size: 2em;
+    }
+    #skills h4 {
+        font-size: 1.8em;
+    }
+    #skills a {
+        width: 160px;
+        height: 40px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+    #blurb1, #blurb2, #blurb3 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /*contact page*/
+    #contact  h1 {
+        font-size: 6em;
+    }
+    #contact h4 {
+        font-size: 1.5em;
+    }
+
+}
+
+/* Custom – For the web browser between 600px and 900px */
+@media screen and (min-width: 668px) and (max-width: 900px) {
+
+    #home  h1 {
+        font-size: 5em;
+        font-family: 'Roboto Condensed';
+    }
+
+    #home a#aboutLink {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        line-height: 25px;
+    }
+
+    #menu {
+        right: 50px;
+    }
+
+    #menu li {
+        margin: 6px;
+        padding: 4px;
+        font-size: 12px;
+    }
+
+
+    /*Skills Page*/
+    #skills  h1 {
+        font-size: 5em;
+    }
+    #skills  h2 {
+        font-size: 1.5em;
+    }
+    #skills h4 {
+        font-size: 1.5em;
+    }
+    #skills a {
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        line-height: 25px;
+    }
+    #blurb1, #blurb2, #blurb3 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /*contact page*/
+    #contact  h1 {
+        font-size: 5em;
+    }
+    #contact h4 {
+        font-size: 1.3em;
+    }
+
+}
+
+/* phones ending at iphone 6 */
+@media only screen and (min-device-width : 1px) and (max-device-width : 668px) {
+
+    /*Home Page*/
+    #home  h1 {
+        font-size: 2.5em;
+        font-family: 'Roboto Condensed';
+    }
+
+    #home a#aboutLink {
+        width: 120px;
+        height: 25px;
+        font-size: 8px;
+        line-height: 20px;
+    }
+
+    /*Skills Page*/
+    #skills  h1 {
+        font-size: 2.5em;
+    }
+    #skills  h2 {
+        font-size: 1em;
+    }
+    #skills h4 {
+        font-size: 1em;
+    }
+    #skills a {
+        width: 120px;
+        height: 25px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    #blurb1, #blurb2, #blurb3 {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    /*contact page*/
+    #contact  h1 {
+        font-size: 2.5em;
+    }
+    #contact h4 {
+        font-size: 1em;
+    }
+
+    .footerLinks .icons {
+        width: 100%;
+    }
+}
+
+
+/* For the menu center */
+@media only screen and (min-device-width : 601px) and (max-device-width : 668px) {
+
+    #menu {
+        right: 100px;
+    }
+
+    #menu li {
+        margin: 4px;
+        padding: 2px;
+        font-size: 8px;
+    }
+
+
+}
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 600px) {
+
+    #menu li {
+        margin: 4px;
+        padding: 2px;
+        font-size: 8px;
+    }
+
+
+}
+
+
