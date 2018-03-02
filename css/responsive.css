@@ -1,227 +1,199 @@
-/*Desktop & Laptops*/
-@media only screen and (min-width : 900px) and (max-width: 1550px){
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
 
-    /*home page*/
-    #home  h1 {
-        font-size: 5em;
+@media (min-width: 1025px) and (max-width: 1280px) {
+    //CSS
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    img {
+        height: 200px;
+        width: 100%;
+    }
+    .tile {
+        height: 200px;
+        width: 100%;
+    }
+    .wrapper {
+        margin-bottom: 250px;
+    }
+    .section-one {
+        height: 550px;
+        margin-bottom: 0px;
+    }
+    .container {
+        height: 1410px;
+    }
+    .headline {
+        font-size: 4.5vh;
+    }
+    .wave {
+        left: 44%;
+        width: 600px;
+        height: 600px;
+        margin-top: -350px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+        grid-column-gap: 5px;
+        grid-row-gap: 10px;
+        align-items: stretch;
+        margin: 0px 0px 0px 5px;
+        text-align: center;
+    }
+    .footer {
+        height: 250px;
+    }
+    .footer-title {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .icons {
+        width: 100%;
+        margin-top: 20px;
+        float: clear;
+        text-align: center;
     }
 
-    #home h2 {
-        font-size: 1.2em;
+    .heading {
+        margin: 0 auto;
+        line-height: 1em;
+        color: black;
+        font-weight: 500;
+        font-family: inherit;
+        letter-spacing: 0em;
+        margin-top: 20px;
+        font-size: 3.3vh;
     }
-    #home  a#aboutLink {
-        width: 160px;
-        height: 40px;
-        font-size: 12px;
-        line-height: 40px;
+    .subheading {
+        line-height: 1.1em;
+        font-weight: 0;
+        margin: 15px 0 25px 0;
+        font-size: 2.3vh;
     }
-
-    /*nav bar*/
-    #menu {
-        right: 50px;
-    }
-
-    #menu li {
-        margin: 6px;
-        padding: 4px;
-        font-size: 12px;
-    }
-
-    /*Skills Page*/
-    #skills  h1 {
-        font-size: 5em;
-    }
-    #skills  h2 {
-        font-size: 1.5em;
-    }
-    #skills h4 {
-        font-size: 1.2em;
-    }
-    #skills a {
-        width: 160px;
-        height: 40px;
-        font-size: 12px;
-        line-height: 40px;
-    }
-    #blurb1, #blurb2, #blurb3 {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    /*contact page*/
-    #contact  h1 {
-        font-size: 5em;
-    }
-    #contact h2 {
-        font-size: 1.2em;
+    .subheading-2 {
+        line-height: 1.1em;
+        font-weight: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 2.3vh;
     }
 
 }
 
-/* Custom – For the web browser between 600px and 900px */
-@media screen and (min-width: 768px) and (max-width: 900px) {
 
-    #home  h1 {
-        font-size: 4em;
-        font-family: 'Roboto Condensed';
-    }
-    #home h2 {
-        font-size: 1em;
-    }
-    #home a#aboutLink {
-        width: 120px;
-        height: 30px;
-        font-size: 10px;
-        line-height: 25px;
-    }
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
 
-    #menu {
-        right: 50px;
-    }
-
-    #menu li {
-        margin: 6px;
-        padding: 4px;
-        font-size: 12px;
-    }
-
-
-    /*Skills Page*/
-
-    #skills  h1 {
-        font-size: 4em;
-    }
-    #skills  h2 {
-        font-size: 1.2em;
-    }
-    #skills h4 {
-        font-size: 1em;
-    }
-    #skills a {
-        width: 120px;
-        height: 30px;
-        font-size: 10px;
-        line-height: 25px;
-    }
-    #blurb1, #blurb2, #blurb3 {
-        font-size: 12px;
-        line-height: 20px;
-    }
-
-    /*contact page*/
-    #contact  h1 {
-        font-size: 4em;
-    }
-    #contact h2 {
-        font-size: 1em;
-    }
-
-}
-
-/* phones ending at iphone 6 */
-@media only screen and (min-device-width : 100px) and (max-device-width : 767px) {
-    #home {
-        background: black;
-        padding-top: 80px;
-    }
-
-    /*Home Page*/
-    #home  h1 {
-        font-size: 2em;
-        font-family: 'Roboto Condensed';
-    }
-    #home h2 {
-        font-size: .8em;
-        padding-bottom: 100px;
-    }
-    #home a#aboutLink {
-        width: 120px;
-        height: 25px;
-        font-size: 8px;
-        line-height: 20px;
-    }
-    #home #resumeLink {
-        font-size: 10px;
-    }
-    #home #resumeLink img {
-        width: 25px;
-    }
-    /*Skills Page*/
-    #skills {
-        padding-top: 10px;
-        height: 130vh;
-    }
-    #skills  h1 {
-        font-size: 2em;
-    }
-    #skills  h2 {
-        font-size: 1em;
-    }
-    #skills h4 {
-        font-size: .8em;
-    }
-    #skills a {
-        width: 120px;
-        height: 25px;
-        font-size: 10px;
-        line-height: 20px;
-    }
-    #blurb1, #blurb2, #blurb3 {
-        font-size: 8px;
-        line-height: 14px;
-    }
-    #blurb1 {
-        padding: 10px 60px 10px 60px;
-    }
-
-    #blurb2 {
-        padding: 10px 60px 20px 60px;
-    }
-
-    #blurb3 {
-        padding: 10px 60px 10px 60px;
-    }
-    /*contact page*/
-    #contact  h1 {
-        font-size: 2em;
-    }
-    #contact h2 {
-        font-size: .8em;
-    }
-    .footerLinks {
-        padding-top: 50px;
-    }
-    .footerLinks img {
-        width: 25px;
-    }
+@media (min-width: 481px) and (max-width: 767px) {
+    //CSS
 }
 
 
-/* For the menu center */
-@media only screen and (min-device-width : 601px) and (max-device-width : 767px) {
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
 
-    #menu {
-        right: 100px;
+@media (min-width: 320px) and (max-width: 480px) {
+    .section-one {
+        height: 500px;
+        margin-bottom: 20px;
     }
 
-    #menu li {
-        margin: 4px;
-        padding: 2px;
-        font-size: 8px;
+    .headline {
+        top: 1%;
+        width: 100%;
+        font-weight: 800;
+        font-size: 2.5em;
     }
 
+    img {
+        height: 319px;
+        width: 100%;
+    }
+    .wrapper {
+        padding: 0px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-row-gap: 15px;
+        align-items: stretch;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
 
+    img.source-image {
+        width: 100%;
+        position: absolute;
+        top: 1;
+        left: 0;
+    }
+    .container {
+        height: 2625px;
+        border-radius: 0%;
+    }
+    .heading {
+        margin: 0 auto;
+        line-height: 1em;
+        color: black;
+        font-weight: 500;
+        font-family: inherit;
+        letter-spacing: 0em;
+        font-size: 3.3vh;
+    }
+    .subheading {
+        line-height: 1.1em;
+        font-weight: 0;
+        margin: 15px 0 25px 0;
+        font-size: 2.3vh;
+    }
+    .subheading-2 {
+        line-height: 1.1em;
+        font-weight: 0;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 2.3vh;
+    }
+    .wrapper {
+        margin-bottom: 250px;
+    }
+    .footer {
+        height: 250px;
+    }
+    .footer-title {
+        width: 100%;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .icons {
+        width: 100%;
+        margin-top: 20px;
+        float: clear;
+        text-align: center;
+    }
+    .projects {
+    padding: 20px;
+    }
+    .content {
+        padding-bottom: 55px;
+        padding-top: 55px;
+
+    }
 }
-
-@media only screen and (min-device-width : 0px) and (max-device-width : 600px) {
-
-    #menu li {
-        margin: 4px;
-        padding: 2px;
-        font-size: 8px;
-    }
-
-
-}
-
-

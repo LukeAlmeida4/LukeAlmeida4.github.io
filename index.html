@@ -1,164 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name='apple-mobile-web-app-capable' content='yes'>
-    <meta name='mobile-web-app-capable' content='yes'>
-    <title>Luke Almeida | Portfolio</title>
-    <meta name="Online Developer Portfolio" content="Luke Almeida UX Developer Portfolio">
+    <meta name="description" content="Luke Almeida is a web developer">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:600|Oswald" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/LALOGOFavicon.png"/>
 
-    <!--our own style-->
-    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+    <title>Luke Almeida | Web Development & Design</title>
+
 </head>
+
 <body>
-
-<ul id="menu">
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#home">Home</a></li>
-</ul>
-
-<!-- page 1 -->
-<div id="home">
-    <div>
-        <h1>LUKE ALMEIDA</h1>
-    </div>
-    <div>
-        <a id="aboutLink" href="aboutPage.html">ABOUT ME</a>
-    </div>
-    <div id="resumeLink">
-        <a href="resources/resume.pdf"><img src="images/resumeIcon.png"><br>Resume</a>
-    </div>
-    <div>
-        <h2>Hand-developed by myself using <a href="https://www.jetbrains.com/webstorm/"> <span id="webstormLink">WebStorm</span></a>.
-            Best viewed on a web platform.
-        </h2>
-    </div>
-</div>
-
-<!-- page 2 -->
-<div id="skills">
-    <div>
-        <h1>MY SKILLS</h1>
-    </div>
-
-    <div>
-        <a href="experiencePage.html">MY WORK</a>
-    </div>
-    <div>
-        <h4>
-            <span class="yellowAccent">Hover titles </span> to view my experience and see examples of my work <span
-                class="yellowAccent">via the link above. </span>
-        </h4>
-    </div>
-    <div id="wrapper">
-        <div class="w3-third">
-            <div id="dropdown1">
-                <h2 id="dropdown1Toggle"> PROGRAMMING </h2>
-                <div id="dropdown1Hidden">
-                    <h3> Years of experience with:</h3>
-                    HTML5, <br>
-                    c#, <br>
-                    Java, <br>
-                    JavaScript, <br>
-                    jQuery/jQuery Mobile, <br>
-                    SQL, <br>
-                    PHP
+    <div class="wrapper">
+        <div class="container">
+            <div class="section-one">
+                <div class="circle layer-one"></div>
+                <div class="circle layer-two"></div>
+                <div class="circle layer-three"></div>
+                <div class="headline">Luke Almeida<span id="small">.com</span></div>
+                <div class="content">
+                    <div class="heading">FREELANCE WEB DEVELOPER</div>
+                    <div class="subheading">
+                        Helping local ventures and entreprenuers <br> get their products and services to the world.
+                    </div>
+                    <div class="subheading-2">
+                        You can learn more about me on <a class="highlight" href="https://medium.com/@lukealmeida4" target="_blank">Medium</a>
+                    </div>
                 </div>
             </div>
-            <div id="blurb1">
-                <p> Whether it be tablet, mobile or web – I strive to build responsive products that render
-                    perfectly. With a versatile stack - excelling in front-end and JavaScript, the push is to provide an
-                    enhanced user experienced.
-                </p>
-            </div>
-        </div>
-
-        <div class="w3-third">
-            <div id="dropdown2">
-                <h2 id="dropdown2Toggle"> Design </h2>
-                <div id="dropdown2Hidden">
-                    <h3> Years of experience with:</h3>
-                    CSS, <br>
-                    Photoshop,<br>
-                    Illustrator,<br>
-                    Wire Framing,<br>
-                    Information Architecture
+            <div class="section-two">
+                <div class="heading projects">PROJECTS</div>
+                <div class="grid">
+                    <div class="tile">
+                        <a href="https://www.theflyingdish.ca/" target="_blank"><img style="background-color: #e74c3c" class="source-image" src="images/Mockup5.png" /></a>
+                    </div>
+                    <div class="tile">
+                        <a href="http://almeidarenovations.ca/" target="_blank"><img style="background-color: #9b59b6" class="source-image" src="images/Mockup4.png" /></a>
+                    </div>
+                    <div class="tile">
+                        <a href="https://originalpokemoncards.com/" target="_blank"><img style="background-color: #27ae60" class="source-image"  src="images/Mockup3.png" /></a>
+                    </div>
+                    <div class="tile">
+                        <a href="http://www.lukealmeida.com/alarm-clock/" target="_blank"><img style="background-color: #2c3e50" class="source-image"  src="images/Mockup2.png" /></a>
+                    </div>
+                    <div class="tile">
+                        <a href="" target="_blank"><img style="background-color: #f1c40f" class="source-image" src="images/Mockup6.png" /></a>
+                    </div>
+                    <div class="tile">
+                        <a href="https://registeredweird.com/" target="_blank"><img style="background-color: #1abc9c" class="source-image"  src="images/Mockup1.png" /></a>
+                    </div>
                 </div>
             </div>
-            <div id="blurb2">
-                <p>
-                    A hidden passion of mine that has a center focus on usability. My process starts from the
-                    roots
-                    – use cases, user research, wire framing, and prototyping to assure a better product.
-                </p>
-            </div>
-        </div>
-
-        <div class="w3-third">
-            <div id="dropdown3">
-                <h2 id="dropdown3Toggle"> INNOVATION </h2>
-                <div id="dropdown3Hidden">
-                    <h3> Years of experience with:</h3>
-                    Agile Development, <br>
-                    User-Centered Design, <br>
-                    User/Market Research, <br>
-                    User Testing, <br>
-                    Use Cases
+            <div class="section-three">
+                <div class="subheading-2 smaller--content">
+                    Interested in bringing an idea to life? <div><a href="mailto:contact@lukealmeida.com?Subject=Hello%20again" target="_top" class="highlight">contact@lukealmeida.com</a></div>
                 </div>
-            </div>
-            <div id="blurb3">
-                <p>
-                    <span> Meta. Creativity. Solutions.</span> <br> I take client needs and
-                    provide reliable and advanced deliverables. I see business wants and turn them into complete
-                    efficient solutions. My passion for UX has created an ever-growing desire to explore my
-                    abilities.
-                </p>
             </div>
         </div>
     </div>
-</div>
-
-<!-- page 3 -->
-<div id="contact">
-
-    <h1> CONTACT</h1>
-    <div>
-        <h2><span class="yellowAccent">Interested in communicating?</span> whatever the concern, shoot me a message
-            <span class="yellowAccent">via social media or email!</span></h2>
+    <div class="footer">
+        <div class="footer-title">
+            <div class="heading">
+                CONNECT
+            </div>
+        </div>
+            <div class="icons">
+                <ul class="social-icons">
+                    <li>
+                        <a href="https://codepen.io/lukealmeida/"> <i class="fa fa-codepen fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto:contact@lukealmeida.com"> <i class="fa fa-file fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/lukealmeida4"> <i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://ca.linkedin.com/in/lukealmeida"> <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@lukealmeida4"> <i class="fa fa-medium fa-2x" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+        <div>
+            &copy; 2018, Luke Almeida
+        </div>
     </div>
-    <div class="footerLinks">
-        <a href="//twitter.com/lukealmeida4">
-            <div class="icons">
-                <img class="iconImage" src="images/twitterIcon.png"/>
-            </div>
-        </a>
-        <a href="//linkedin.com/in/LukeAlmeida" target="_blank">
-            <div class="icons">
-                <img class="iconImage" src="images/linkinIcon.png"/>
-            </div>
-        </a>
-        <a href="mailto:Luke Almeida <Luke@almeidacreativestudios.com>" target="_blank">
-            <div class="icons">
-                <img class="iconImage" src="images/emailIcon.png"/>
-            </div>
-        </a>
-        <a href="resources/resume.pdf" target="_blank">
-            <div class="icons">
-                <img class="iconImage" src="images/resumeIcon.png"/>
-            </div>
-        </a>
-        <a href="https://github.com/Luke-Almeida" target="_blank">
-            <div class="icons">
-                <img class="iconImage" src="images/gitIcon.png"/>
-            </div>
-        </a>
-    </div>
-</div>
-
 </body>
+
 </html>
